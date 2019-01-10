@@ -1,0 +1,27 @@
+html{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif
+}
+.parent{
+    text-align: center;
+}
+  ul {
+    list-style-type: none;
+    margin: 5px 10px;   
+    padding: 0;
+  }
+  ul li {
+    display: inline-block;
+    margin: 5px;
+  }
+  .r_nav{
+      float: right; 
+  }
+  #g-logo{
+    margin-top: 140px;
+  }
+  .logo{
+      display: inline-block;
+  }
+
+ 

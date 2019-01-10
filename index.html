@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <! puts title of google on tab>
+<! Google Tab Title>
         <title>Google</title>
         <link rel="stylesheet" href="google.css" type="text/css">
     </head>
     <body>
+<! Navigation bar>
         <div>
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li class="r_nav"><a href="#">Contacts</a></li>
+                    <li class="r_nav"><a href="#">Gmail</a></li>
+                </ul>
+            </nav>
         </div>
-        <div>
-<!add something later>
-        </div>
-        <form action="somescript.php" method="post">
-            <p>
-                <input name="searchbar" value="Type to search">
-            </p>
+        <div class="parent">
+<! Google Logo>
+            <div id="g-logo">
+                <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google_log">
+            </div>
+<! Search Bar>
+            <form action="somescript.php" method="post">
+                <div id="search-container">
+                    <input id="searchbar" name="search" type="text">
+                </div>
         </form>
+        </div>
     </body>
 </html>
